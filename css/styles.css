@@ -7,6 +7,11 @@ body {
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
 }
+#fotoDoJOGO{
+ max-width: 37px;
+    max-height: 370px;
+
+}
 
 #fotoDaEquipe {
     max-width: 250px;
