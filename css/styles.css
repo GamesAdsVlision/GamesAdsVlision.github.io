@@ -7,10 +7,12 @@ body {
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
 }
+
 #principal_img {
-     max-width: 480px;
+    max-width: 480px;
     max-height: 480px;
 }
+
 #fotoDoJOGO {
     max-width: 550px;
     max-height: 550px;
