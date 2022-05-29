@@ -7,15 +7,22 @@ body {
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
 }
-#fotoDoJOGO{
+
+#fotoDoJOGO {
     max-width: 550px;
     max-height: 550px;
-
 }
 
 #fotoDaEquipe {
     max-width: 250px;
     max-height: 250px;
+}
+
+.sobreiMAGEM {
+    background-image: url("/assets/trabalhadores-.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99%;
 }
 
 h1,
@@ -90,6 +97,10 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
+}
+
+.pagina_final {
+    margin-top: 3rem;
 }
 
 nav {
@@ -452,6 +463,11 @@ a {
     animation: 0.5s forwards show-right;
 }
 
+.textoFinais {
+    text-shadow: -1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), 1px 0px 0px rgb(0, 0, 0);
+    color: aliceblue;
+}
+
 .experiencia__descricao h2 {
     font-size: 1.4rem;
     display: inline-block;
@@ -590,8 +606,15 @@ a {
         padding: 22% 0;
         text-align: center;
     }
+    .experienciafinal {
+        margin-top: 10rem;
+    }
     .principal {
         flex-direction: column;
+    }
+    .sobre-mim__descricao-buttons-curriculo {
+        width: 140px;
+        margin-right: 50px;
     }
     .principal__left {
         width: 90%;
@@ -665,7 +688,8 @@ a {
     .sobre-mim__descricao-buttons-curriculo,
     .sobre-mim__descricao-buttons-email,
     .projetos__card-button {
-        width: 110px;
+        width: 100px;
+        font-size: 8px;
     }
     .principal__botao,
     .sobre-mim__descricao-buttons {
