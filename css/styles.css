@@ -23,7 +23,14 @@ body {
     max-height: 450px;
 }
 
-.sobreiMAGEM {
+.sobreiMAGEM1 {
+    background-image: url("/assets/growUP.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99%;
+}
+
+.sobreiMAGEM2 {
     background-image: url("/assets/trabalhadores-.png");
     background-repeat: no-repeat;
     background-size: contain;
