@@ -8,6 +8,10 @@ body {
     letter-spacing: 1px;
 }
 
+#botao-github {
+    margin-left: 20px;
+}
+
 #principal_img {
     max-width: 480px;
     max-height: 480px;
@@ -626,6 +630,9 @@ a {
     .projetos {
         padding: 22% 0;
         text-align: center;
+    }
+    #emailB {
+        width: 80px;
     }
     .experienciafinal {
         margin-top: 10rem;
